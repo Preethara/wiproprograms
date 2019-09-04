@@ -1,0 +1,30 @@
+//Hapf Right side diamond
+3
+44
+555
+6666
+555
+44
+3
+//source code
+
+#include<stdio.h>
+int main(){
+int row,col,lim,colval=1,val;
+scanf("%d",&lim);
+scanf("%d",&val);
+for(row=1;row<lim*2;row++){
+for(col=1;col<=colval;col++){
+    printf("%d",val);
+    }
+    if(row<lim){
+    ++val;
+    ++colval;
+    }
+    else{
+    --val;
+    --colval;
+    }
+    printf("\n");
+    }
+}
