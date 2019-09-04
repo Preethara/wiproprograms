@@ -1,4 +1,10 @@
 //Find the GCD of two numbers
+3 
+6
+GCD of 3 and 6 is 3
+
+
+
 #include<stdio.h>
 int gcd(int a,int b){
     if(a==0||b==0){
